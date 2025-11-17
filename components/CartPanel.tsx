@@ -179,7 +179,6 @@ const PlaceOrderButton: React.FC<{
         }
 
         return {
-          id: item.id,
           size: item.size,
           qty: item.qty,
           image: imageUrl,
