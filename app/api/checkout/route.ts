@@ -69,7 +69,7 @@ export async function POST(req: Request) {
 
   // Plain text fallback
   const textLines = items
-    .map((it: any) => `- ${it.id} (${it.size ?? "n/a"}) x ${it.qty}`)
+    .map((it: any) => ` (${it.size ?? "n/a"}) x ${it.qty}`)
     .join("\n");
   const textContent = `New order received:\n\n${textLines}`;
 
