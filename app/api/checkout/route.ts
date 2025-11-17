@@ -39,7 +39,7 @@ export async function POST(req: Request) {
             }
           </td>
           <td style="padding: 10px;">
-            <strong>${it.id}</strong><br>
+           
             Size: ${it.size ?? "n/a"}<br>
             Quantity: ${it.qty}
           </td>
