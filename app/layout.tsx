@@ -21,7 +21,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || "https://ex2325.com"
+    process.env.NEXT_PUBLIC_SITE_URL || "https://ex2325.vercel.app"
   ),
   title: {
     default: "EX2325 - Premium Men's Shoes | Shop Quality Footwear Online",
@@ -104,11 +104,7 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  verification: {
-    google: "your-google-verification-code",
-    // yandex: "your-yandex-verification-code",
-    // bing: "your-bing-verification-code",
-  },
+
   alternates: {
     canonical: "/",
   },
